@@ -10,7 +10,6 @@ on:
 
 jobs:
   matrix_pip:
-    description: Test with multiple Python and pip versions
     runs-on: ubuntu-latest
     strategy:
       matrix:
